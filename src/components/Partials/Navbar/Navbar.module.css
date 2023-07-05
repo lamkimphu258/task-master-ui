@@ -1,0 +1,15 @@
+.navbar {
+    @apply flex p-4 text-white;
+}
+
+.logo {
+    @apply flex items-center gap-2 mr-auto;
+}
+
+.brand {
+    @apply uppercase font-bold text-lg;
+}
+
+.navbarNav {
+    @apply flex gap-2;
+}
