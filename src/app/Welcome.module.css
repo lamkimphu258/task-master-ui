@@ -1,0 +1,7 @@
+.main {
+    @apply flex flex-col max-w-[800px] text-center px-4 text-white gap-2 justify-center h-full m-auto;
+}
+
+.introduction {
+    @apply text-5xl font-bold;
+}
