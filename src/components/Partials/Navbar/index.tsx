@@ -11,8 +11,13 @@ export default function Navbar() {
                 <span className={style.brand}>Task Master</span>
             </Link>
             <div className={style.navbarNav}>
-                <Button type="primary">Sign Up</Button>
-                <Button type="primary">Login</Button>
+                <Button type="primary">
+                    <Link href="/login">Sign Up</Link>
+                </Button>
+
+                <Button type="primary">
+                    <Link href="/login">Login</Link>
+                </Button>
             </div>
         </nav>
     );
